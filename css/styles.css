@@ -1,0 +1,213 @@
+
+/* id selectors */
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+    padding-bottom: 7%;
+}
+
+#features{
+    text-align: center;
+    padding-top: 8rem;
+    margin-bottom: 8rem;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+#testimonials{
+
+    background-color: #ef8172;
+    text-align: center;
+    
+    color: #fff;
+}
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+#testimonials-carousel{
+    height:36.25rem;
+}
+
+#pricing{
+    text-align: center;
+    margin: 8% 5%;
+}
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+#footer{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+/* tag selectors */
+h1{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    
+}
+
+h2{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-weight: 700;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* class selectors */
+.container-fluid{
+    padding: 2% 10%;
+}
+
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.nav-item{
+    padding-right: 2.5rem;
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+    padding-left: 0;
+    padding-top: 0;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.phone-image{
+    transform: rotate(25deg);
+    width: 60%;
+    position: absolute;
+    right: 33%;
+
+}
+
+.fa-4x{
+   color: #ef8172;
+   
+}
+
+.fa-4x:hover{
+    color: #ff4c68;
+}
+
+.features-description{
+    color:#8f8f8f;
+    margin: auto;
+    width: 60%;
+    font-weight: 550;
+    padding-bottom: 3rem;
+
+}
+
+.features-heading{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.testimonials-image{
+    width: 13%;
+    border-radius: 100%;
+    margin: 1.8rem;
+}
+
+.press-image{
+    width: 13%;
+    margin: 2rem 1.5rem 2rem 1.5rem;
+}
+
+.testimonial-text{
+    padding: 8% 15% 0 15%;
+}
+
+.card{
+    margin-top: 3rem;
+}
+
+.cta-heading{
+    font-family: "Montserrat";
+    font-weight: 900;
+    color:#fff;
+    width: 55%;
+    margin:auto;
+}
+
+.footer-icon{
+    padding: 0 0.5rem 1rem 0.5rem;
+    color:#333333;
+}
+
+.copyright{
+    color: #706c61;
+}
+
+
+
+
+
+
+
+
+
+/* Media Query */
+
+ @media (max-width: 992px){      /* The phone image u see straight(with 0 rotation) at 992px can be removed if i change max-width to 991px. There are two things happening here. First u see the media properties are applied but image didn't go down this is becuz for col-lg-6 mean for equivalent to 992px and above it gonna follow it and for below it gonna take whole space. So because of that at 992px media properties are applied but image didn't go down. */
+                                 
+    .phone-image{
+        transform: rotate(0);
+        position: static;
+
+    }
+
+    #title{
+        text-align: center;
+    }
+}
